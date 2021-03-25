@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Used to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant website</title>
+
+    <!-- link our css file -->
+    <link rel="stylesheet" href="D:\VS HTML CODES\images\images\css\styles.css">
+    
+</head>
+
+<body>
+    
+    <!-- Nav bar section starts here! -->
+    <section class="nav-bar">
+        <div class="container">
+            <div class="logo">
+                <img src="D:\VS HTML CODES\images\images\logo.png" alt="Restaurant logo" class="img-responsive">
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Foods</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clear-fix"></div>
+        </div>
+    </section>
+    <!-- Nav bar section ends here! -->
+
+    <!-- Food search section starts here -->
+    <section class="food-search text-center">
+        <div class="container">
+
+            <form action="">
+                <input type="search" name="search" placeholder="Search for food">
+                <input type="submit" name="submit" value="Search" class="btn btn-primary">
+            </form>
+        </div>
+    </section>
+    <!-- Food search section ends here -->
+
+    <!-- Categories section starts here -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="text-center">Explore Foods</h2>
+
+            <div class="box-3 float-container">
+                <img src="D:\VS HTML CODES\images\images\pizza.jpg" alt="pizza" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Pizza</h3>
+            </div>
+
+            <div class="box-3 float-container">
+                <img src="D:\VS HTML CODES\images\images\burger.jpg" alt="Burger" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Burger</h3>
+            </div>
+
+            <div class="box-3 float-container">
+                <img src="D:\VS HTML CODES\images\images\momo.jpg" alt="Momos" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Momos</h3>
+            </div>
+
+            <div class="clear-fix"></div>
+        </div>
+    </section>
+    <!-- Categories section ends here -->
+
+    <!-- Food menu section starts here -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">Food Menu</h2>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="D:\VS HTML CODES\images\images\menu-pizza.jpg" alt="pizza" class="img-responsive img-curve">
+                </div>
+                <div class="food-menu-desc">
+                    <h4>Peri Peri Pizza</h4>
+                    <p class="food-price">₹150.00   </p>
+                    <p class="food-detail">
+                        Made with italian sos,chicken and organic veggies.
+                    </p>
+                    <br>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="D:\VS HTML CODES\images\images\menu-burger.jpg" alt="burger" class="img-responsive img-curve">
+                </div>
+                <div class="food-menu-desc">
+                    <h4>Mexician Burger</h4>
+                    <p class="food-price">₹89.00</p>
+                    <p class="food-detail">
+                        Made with italian sos,chicken and organic veggies.
+                    </p>
+                    <br>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="D:\VS HTML CODES\images\images\menu-burger.jpg" alt="pizza" class="img-responsive img-curve">
+                </div>
+                <div class="food-menu-desc">
+                    <h4>Chicken Whooper</h4>
+                    <p class="food-price">₹129.00</p>
+                    <p class="food-detail">
+                        Chicken Whooper made with best ingredient and served fresh
+                    </p>
+                    <br>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="D:\VS HTML CODES\images\images\menu-momo.jpg" alt="Momos" class="img-responsive img-curve">
+                </div>
+                <div class="food-menu-desc">
+                    <h4>Chicken Tandoor Momos</h4>
+                    <p class="food-price">₹99.00</p>
+                    <p class="food-detail">
+                        Chicken tandoor momos..Top Trending food order
+                    </p>
+                    <br>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="D:\VS HTML CODES\images\images\menu-momo.jpg" alt="momos" class="img-responsive img-curve">
+                </div>
+                <div class="food-menu-desc">
+                    <h4>Momos</h4>
+                    <p class="food-price">₹60.00</p>
+                    <p class="food-detail">
+                        Best Momos available in our restaurant...Hurry up!
+                    </p>
+                    <br>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="D:\VS HTML CODES\images\images\menu-pizza.jpg" alt="pizza" class="img-responsive img-curve">
+                </div>
+                <div class="food-menu-desc">
+                    <h4>Vegetarian Pizza</h4>
+                    <p class="food-price">₹89.00</p>
+                    <p class="food-detail">
+                        Made with italian sos,chicken and organic veggies.
+                    </p>
+                    <br>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+
+            
+
+            <div class="clear-fix"></div>
+        </div>
+    </section>
+    <!-- Food menu section ends here -->
+
+    <!-- Social section starts here -->
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Social section ends here -->
+    
+
+    <!-- Footer section starts here -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>All rights reserved. &nbsp;  Designed by  <a href="#">Mohsin Pathan</a></p>
+        </div>
+        
+            <p>Author: Sagir Ahmed</p>
+            <p> E-mail us on:&nbsp;<a href="pathanmmohsin@gmail.com">pathanmmohsin@gmail.com</a></p>
+         
+    </section>
+    <!-- Footer section ends here -->
+
+
+</body>
+</html>
+
+
+/* 
+    Author:Mohsin Pathan;
+    Theme:Restaurant Food order;
+    Version:1.0;
+*/
+
+/* css for all */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: aliceblue;
+}
+.clear-fix{
+    clear: both;
+    float: none;
+}
+a{
+    color:#9bff18;
+    text-decoration: none;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    color: aliceblue;
+    border-radius: 7px;
+}
+.btn-primary{
+    background-color: #5f27cd;
+}
+h2{
+    color: #003d08;
+    font-size: 2rem;
+    margin: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 30px;
+    left: 35%;
+}
+.btn-primary:hover{
+    background-color: #341f97;
+    color:white;
+}
+a:hover{
+    color: #ecedec;
+}
+
+
+/* css for nav bar section */
+
+
+
+
+.nav-bar{
+    background-color: rgb(126, 125, 125);
+    display: block;
+    overflow: hidden;
+}
+
+.logo{
+    background-color: white;
+    border-radius: 20px;
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 50px;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 2%;
+    font-weight: bold;
+}
+
+/* food search section */
+
+.food-search{
+    background-image: url(../bg.jpg);   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top:7%;
+    padding-bottom: 7%;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 7px;
+}
+
+/* css for categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+/* css for food menu */
+
+.food-menu{
+    background-color: rgb(204, 202, 202);
+    padding: 4% 0;
+}
+.food-menu-box{
+    
+    width: 43%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 2%;
+}
+.food-detail{
+    font-size: 1rem;
+    color: rgb(141, 134, 134);
+}
+
+/* css for social media */
+
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* css for footer */
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+  }
+
+/* css for mobile responsive */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type='search']{
+        width: 90%;
+        padding: 1%;
+        margin-bottom: 5%;
+    }
+
+    .btn{
+        width: 50%;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+
+    h2{
+        margin-bottom: 5% auto;
+    }
+
+    .box-3{
+        width: 95%;
+        margin: 4% auto;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 95%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+
+    .social{
+        padding: 5% 0;
+    }
+}
+
+
+
+
+
+
